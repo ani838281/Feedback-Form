@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Feedback form</title>
+	 <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="feedback.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Feedback Form</h1>
+         <p> 
+         	Your opinion is important to us.This is way we keep improving our website
+         </p>
+         
+         <form action="welcome.php" method="post">
+               <section id="Feedback-form">
+ 
+  <form id="contact" name="contact" accept-charset="utf-8">
+    <label><span>Name</span><input name="name" type="text" placeholder="Name"/></label>
+    <label><span>Email</span><input name="email" type="email" placeholder="Email"/></label>
+    <label><span>Rating </span><input name="rat" type="text" placeholder="Rating(scale 1 to 5)"/></label>
+    <label><span>Message</span><textarea name="message" placeholder="Message"></textarea></label>
+    <input name="submit" type="submit" value="Send"/>
+  </form>
+  
+               </section>
+
+
+         </form>
+
+
+	</div>
+	
+<script src="feedback.js"></script>
+</body>
+</html>
